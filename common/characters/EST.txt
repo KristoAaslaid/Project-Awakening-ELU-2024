@@ -1,0 +1,510 @@
+characters={
+	EST_konstantin_pats={
+		name=EST_konstantin_pats
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/EST_konstantin_pats_leader.dds"
+			}
+			army = {
+				small = GFX_portrait_EST_konstantin_pats_small #Not ever used
+			}
+		}
+		country_leader={
+			desc = EST_konstantin_pats_desc
+			ideology=oligarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	EST_johan_laidoner={
+		name=EST_johan_laidoner
+		portraits={
+			army={
+				small="gfx/leaders/EST/EST_johan_laidoner_small.dds"
+				large="gfx/leaders/EST/EST_johan_laidoner.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			desc = EST_johan_laidoner_desc
+			idea_token = EST_johan_laidoner
+			allowed = {
+				original_tag = EST
+			}
+			traits = {
+				army_chief_organizational_3
+			}
+			cost = -1
+			can_be_fired = no
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		field_marshal={
+			desc = EST_johan_laidoner_desc
+			traits={ old_guard }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	EST_juhan_tuuling={#dunno any military theorists. Keeping base-game one for now.
+		name=EST_juhan_tuuling
+		portraits={
+			army={
+				small="gfx/leaders/EST/EST_unknown_leader_small.dds" #No portrait
+			}
+		}
+		advisor={
+			cost = -1
+			can_be_fired = no
+			slot = theorist
+			idea_token = EST_juhan_tuuling
+			ledger = army
+			allowed = {
+				original_tag = EST
+			}
+			traits = {
+				military_theorist
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+
+	EST_johan_pitka={
+		name=EST_johan_pitka
+		portraits={
+			army = {
+				small="gfx/leaders/EST/EST_johan_pitka_small.dds"
+				large="gfx/leaders/EST/EST_johan_pitka.dds"
+			}
+		}
+		advisor={
+			desc = EST_johan_pitka_desc
+			slot = navy_chief
+			idea_token = EST_johan_pitka
+			allowed = {
+				original_tag = EST
+			}
+			traits = {
+				navy_chief_old_guard
+			}
+			cost = -1
+			can_be_fired = no
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		navy_leader = {
+			desc = EST_johan_pitka_desc
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+
+	EST_juri_ots={#Air guy
+		name=EST_juri_ots
+		portraits={
+			army={
+				small="gfx/leaders/EST/EST_juri_ots_small.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			desc = EST_juri_ots_desc
+			idea_token = EST_juri_ots
+			allowed = {
+				original_tag = EST
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = -1
+			can_be_fired = no
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+
+	EST_ernst_podder={
+		name=EST_ernst_podder
+		portraits={
+			army={
+				large="gfx/leaders/EST/EST_ernst_podder.dds"
+				small="gfx/leaders/EST/EST_ernst_podder_small.dds"
+			}
+		}
+		advisor={
+			desc = EST_ernst_podder_desc
+			slot = army_chief
+			idea_token = EST_ernst_podder_army_chief
+			ledger = army
+			allowed = {
+				original_tag = EST
+			}
+			traits = {
+				army_chief_old_guard
+			}
+			cost = -1
+			can_be_fired = no
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		corps_commander={
+			desc = EST_ernst_podder_desc
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+
+	EST_jaan_soots={
+		name=EST_jaan_soots
+		portraits={
+			army={
+				small="gfx/leaders/EST/EST_jaan_soots_small.dds"
+				large="gfx/leaders/EST/EST_jaan_soots.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			desc = EST_jaan_soots_desc
+			idea_token = EST_jaan_soots
+			allowed = {
+				original_tag = EST
+			}
+			traits = {
+				army_chief_defensive_2 
+			}
+			can_be_fired = no
+			cost = -1
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+		corps_commander = {
+			desc = EST_jaan_soots_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	EST_andres_larka={
+		name=EST_andres_larka
+		portraits={
+			army={
+				small="gfx/leaders/EST/EST_andres_larka_small.dds"
+				large="gfx/leaders/EST/EST_andres_larka.dds"
+			}
+		}
+		advisor={
+			can_be_fired = no
+			slot = high_command
+			desc = EST_andres_larka_desc
+			idea_token = EST_andres_larka
+			allowed = {
+				original_tag = EST
+			}
+			traits = {
+				army_chief_entrenchment_2
+			}
+			cost=-1
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+		corps_commander = {
+			desc = EST_andres_larka_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_aleksander_tonisson={
+		name=EST_aleksander_tonisson
+		portraits={
+			army={
+				small="gfx/leaders/EST/EST_aleksander_tonisson_small.dds"
+				large="gfx/leaders/EST/EST_aleksander_tonisson.dds"
+			}
+		}
+		advisor={
+			can_be_fired = no
+			slot = high_command
+			desc = EST_aleksander_tonisson_desc
+			idea_token = EST_aleksander_tonisson
+			allowed = {
+				original_tag = EST
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = -1
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+		corps_commander = {
+			desc = EST_aleksander_tonisson_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_julius_kuperjanov={
+		name=EST_julius_kuperjanov
+		portraits = {
+			army={
+				large="gfx/leaders/EST/EST_julius_kuperjanov.dds"
+			}
+		}
+		corps_commander = {
+			desc= EST_julius_kuperjanov_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_hans_kalm={
+		name=EST_hans_kalm
+		portraits = {
+			army = {
+				large="gfx/leaders/EST/EST_hans_kalm.dds"
+			}
+		}
+		corps_commander = {
+			desc= EST_hans_kalm_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_constantin_von_weiss={
+		name=EST_constantin_von_weiss
+		portraits = {
+			army = {
+				large="gfx/leaders/EST/EST_constantin_von_weiss.dds"
+			}
+		}
+		corps_commander = {
+			desc=EST_constantin_von_weiss_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_martin_ekstrom={
+		name=EST_martin_ekstrom
+		portraits = {
+			army = {
+				large="gfx/leaders/EST/EST_martin_ekstrom.dds"
+			}
+		}
+		corps_commander = {
+			desc=EST_martin_ekstrom_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_richard_borgelin={
+		name=EST_richard_borgelin
+		portraits = {
+			army = {
+				large="gfx/leaders/EST/EST_richard_borgelin.dds"
+			}
+		}
+		corps_commander = {
+			desc=EST_richard_borgelin_desc
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EST_ado_birk={
+		name=EST_ado_birk
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_ado_birk_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_ado_birk_desc
+			slot = political_advisor
+			idea_token = EST_ado_birk_minister
+			traits = { valisminister }
+		}
+	}
+	EST_jaan_poska={
+		name=EST_jaan_poska
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_jaan_poska_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_jaan_poska_desc
+			slot = political_advisor
+			idea_token = EST_jaan_poska_minister
+			traits = { valisminister_asetaitja }
+		}
+	}
+	EST_jaan_tonisson={
+		name=EST_jaan_tonisson
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_jaan_tonisson_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_jaan_tonisson_desc
+			slot = political_advisor
+			idea_token = EST_jaan_tonisson_minister
+			traits = { vana_jaan }
+		}
+		country_leader = {
+			ideology = oligarchism
+			desc = EST_jaan_tonisson_desc
+			expire="1965.1.1.1"
+			id=-1
+			traits = {
+				vana_jaan
+			}
+		}
+	}
+	EST_johannes_kartau={
+		name=EST_johannes_kartau
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_johannes_kartau_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_johannes_kartau_desc
+			slot = political_advisor
+			idea_token = EST_johannes_kartau_minister
+			traits = { haridusminister }
+		}
+	}
+	EST_juhan_kukk={
+		name=EST_juhan_kukk
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_juhan_kukk_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_juhan_kukk_desc
+			slot = political_advisor
+			idea_token = EST_juhan_kukk_minister
+			traits = { rahandusminister }
+		}
+	}
+	EST_harald_laksberg={
+		name=EST_harald_laksberg
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_harald_laksberg.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_harald_laksberg_desc
+			slot = political_advisor
+			idea_token = EST_harald_laksberg_minister
+			traits = { haridusminister }
+		}
+	}
+	EST_konstantin_treffner={
+		name=EST_konstantin_treffner
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_konstantin_treffner_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_konstantin_treffner_desc
+			slot = political_advisor
+			idea_token = EST_konstantin_treffner_minister
+			traits = { haridusminister }
+		}
+	}
+	EST_otto_strandman={
+		name=EST_otto_strandman
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_otto_strandman_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_otto_strandman_desc
+			slot = political_advisor
+			idea_token = EST_otto_strandman_minister
+			traits = { kokkuhoidlik_minister }
+		}
+		country_leader = {
+			ideology = oligarchism
+			desc = EST_otto_strandman_desc
+			expire="1965.1.1.1"
+			id=-1
+			traits = {
+				kokkuhoidlik_minister
+			}
+		}
+	}
+	EST_peeter_pold={
+		name=EST_peeter_pold
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EST/govpol/EST_peeter_pold_small.dds"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			desc = EST_peeter_pold_desc
+			slot = political_advisor
+			idea_token = EST_peeter_pold_minister
+			traits = { haridusminister }
+		}
+	}
+}

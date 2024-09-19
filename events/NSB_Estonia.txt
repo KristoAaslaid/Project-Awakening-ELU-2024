@@ -1,0 +1,797 @@
+﻿###########################
+# Estonian Events
+###########################
+
+add_namespace = EST_events
+
+#Game Start-up Event
+country_event = {
+    id = EST_events.1
+    title = EST_events.1.title
+    desc = EST_events.1.desc
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    option = {  
+        name = EST_events.1.opt
+        ai_chance = { factor = 100 }
+    }
+}
+#Britain Pledges Military Aid
+country_event = {
+    id = EST_events.2
+    title = EST_events.2.title
+    desc = EST_events.2.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.2.opt
+        ai_chance = { factor = 100 }
+        add_stability = 0.2
+    }
+}
+#Narva Battle
+country_event = {
+    id = EST_events.3
+    title = EST_events.3.title
+    desc = EST_events.3.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.3.opt
+        ai_chance = { factor = 100 }
+        add_stability = -0.15
+        add_war_support = 0.25
+        add_manpower = 14000
+        set_country_flag = warstart_superevent
+    }
+}#Viimased Saksa
+country_event = {
+    id = EST_events.4
+    title = EST_events.4.title
+    desc = EST_events.4.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.4.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 50
+        add_stability = 0.10
+    }
+}#SB Laevastik 
+country_event = {
+    id = EST_events.5
+    title = EST_events.5.title
+    desc = EST_events.5.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.5.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 6807
+            producer = ENG
+        }
+    }
+}
+country_event = { #Laidoner ja Mobilisatsioon
+    id = EST_events.6
+    title = EST_events.6.title
+    desc = EST_events.6.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.6.opt
+        ai_chance = { factor = 100 }
+        add_manpower = 13500
+    }
+}
+country_event = { #Vabatahtlikud
+    id = EST_events.7
+    title = EST_events.7.title
+    desc = EST_events.7.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.7.opt
+        custom_effect_tooltip = EST_events.7.cet
+        ai_chance = { factor = 100 }
+        hidden_effect = {
+            create_corps_commander = {
+            name=EST_hans_kalm
+            portrait_path = "gfx/leaders/EST/EST_hans_kalm.dds"
+            desc= EST_hans_kalm_desc
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+            traits = { }
+            }
+            create_corps_commander = {
+                name=EST_constantin_von_weiss
+                portrait_path = "gfx/leaders/EST/EST_constantin_von_weiss.dds"
+                desc= EST_constantin_von_weiss_desc
+                skill = 2
+                attack_skill = 2
+                defense_skill = 2
+                planning_skill = 2
+                logistics_skill = 2
+                traits = { }
+            }
+            create_corps_commander = {
+                name=EST_martin_ekstrom
+                portrait_path = "gfx/leaders/EST/EST_martin_ekstrom.dds"
+                desc= EST_martin_ekstrom_desc
+                skill = 2
+                attack_skill = 2
+                defense_skill = 2
+                planning_skill = 2
+                logistics_skill = 2
+                traits = { }
+            }
+            create_corps_commander = {
+                name =EST_richard_borgelin
+                portrait_path = "gfx/leaders/EST/EST_richard_borgelin.dds"
+                desc = EST_richard_borgelin_desc
+                skill = 2
+                attack_skill = 2
+                defense_skill = 2
+                planning_skill = 2
+                logistics_skill = 2
+                traits = { }
+            }
+        }
+        
+    }
+}
+country_event = { #2/3
+    id = EST_events.8
+    title = EST_events.8.title
+    desc = EST_events.8.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.8.opt
+        ai_chance = { factor = 100 }
+        add_war_support = 0.5
+    }
+}
+country_event = { #Vastupealetung
+    id = EST_events.9
+    title = EST_events.9.title
+    desc = EST_events.9.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.9.opt
+        ai_chance = { factor = 100 }
+        add_stability = 0.4
+        swap_ideas = {
+            remove_idea = eestikaitseliit_1
+            add_idea = eestikaitseliit_2
+        }
+    }
+}
+country_event = { #Utria Dessant
+    id = EST_events.10
+    title = EST_events.10.title
+    desc = EST_events.10.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.10.opt
+        ai_chance = { factor = 100 }
+        set_province_controller = 601
+        39 = {
+            create_unit = {
+                division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 601
+            }
+        }
+    }
+}
+country_event = { #Narva Vabastamine
+    id = EST_events.11
+    title = EST_events.11.title
+    desc = EST_events.11.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.11.opt
+        ai_chance = { factor = 100 }
+        add_stability = 0.25
+        add_war_support = 0.25
+    }
+}
+country_event = { #Paju Lahing
+    id = EST_events.12
+    title = EST_events.12.title
+    desc = EST_events.12.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.12.opt
+        ai_chance = { factor = 100 }
+        add_war_support = 0.2
+        swap_ideas = {
+            remove_idea = eestikaitseliit_2
+            add_idea = eestikaitseliit_3
+        }
+    }
+}
+country_event = { #Saaremaa mäss
+    id = EST_events.13
+    title = EST_events.13.title
+    desc = EST_events.13.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.13.opt
+        ai_chance = { factor = 100 }
+        add_stability = -0.3
+        add_manpower = -169
+    }
+}
+country_event = { #Laidoneri ettekanne
+    id = EST_events.14
+    title = EST_events.14.title
+    desc = EST_events.14.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.14.opt
+        ai_chance = { factor = 100 }
+        add_equipment_to_stockpile = {
+            type = artillery_equipment
+            amount = 40
+        }
+        add_stability = 0.2
+    }
+}
+country_event = { #Riia Landeswehr
+    id = EST_events.15
+    title = EST_events.15.title
+    desc = EST_events.15.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.15.opt
+        ai_chance = { factor = 100 }
+        add_to_war = {
+            targeted_alliance = LAT
+            enemy = SOV
+        }
+    }
+}
+country_event = { #Landeswehri sõja algus
+    id = EST_events.16
+    title = EST_events.16.title
+    desc = EST_events.16.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.16.opt
+        ai_chance = { factor = 100 }
+        swap_ideas = {
+            remove_idea = eestikaitseliit_3
+            add_idea = eestikaitseliit_4
+        }
+    }
+}
+country_event = { #Vaherahu LW-Eesti
+    id = EST_events.17
+    title = EST_events.17.title
+    desc = EST_events.17.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.17.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 50
+        white_peace = BAL
+        set_truce = {
+            target = BAL
+            days = 9
+        }
+        29 = { set_state_controller_to = EST }
+        20 = { set_state_controller_to = EST }
+    }
+}
+country_event = { #Vaherahu katkemine
+    id = EST_events.18
+    title = EST_events.18.title
+    desc = EST_events.18.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.18.opt
+        ai_chance = { factor = 100 }
+        add_war_support = 0.10
+    }
+}
+country_event = { #Võnnu
+    id = EST_events.19
+    title = EST_events.19.title
+    desc = EST_events.19.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.19.opt
+        ai_chance = { factor = 100 }
+    }
+}
+country_event = { #LW sõja lõpp
+    id = EST_events.20
+    title = EST_events.20.title
+    desc = EST_events.20.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.20.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+        white_peace = BAL
+        12 = { transfer_state_to = LAT }
+        18 = { transfer_state_to = LAT }
+        29 = { transfer_state_to = LAT }
+        20 = { transfer_state_to = LAT }
+        14 = { transfer_state_to = LAT }
+        11 = { transfer_state_to = LAT }
+    }
+}
+country_event = { #Valge Mõõk
+    id = EST_events.21
+    title = EST_events.21.title
+    desc = EST_events.21.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.21.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Krasnaja Gorka
+    id = EST_events.22
+    title = EST_events.22.title
+    desc = EST_events.22.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.22.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Trotski-Kamenev
+    id = EST_events.23
+    title = EST_events.23.title
+    desc = EST_events.23.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.23.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+        add_ideas = {
+            eestimoraal
+        }
+    }
+}
+country_event = { #VK taganemine, op end
+    id = EST_events.24
+    title = EST_events.24.title
+    desc = EST_events.24.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.24.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Narva Kaitselahingud
+    id = EST_events.25
+    title = EST_events.25.title
+    desc = EST_events.25.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.25.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+    }
+}
+country_event = { #Tartu Rahu
+    id = EST_events.26
+    title = EST_events.26.title
+    desc = EST_events.26.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.26.opt
+        ai_chance = { factor = 100 }
+        add_political_power = 10
+        white_peace = SOV
+        remove_ideas = {
+            eestimoraal
+        }
+    }
+}
+country_event = { #Politician Switch I-II ajutine -> III ajutine.
+    id = EST_events.27
+    title = EST_events.27.title
+    desc = EST_events.27.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.27.opt
+        ai_chance = { factor = 100 }
+        custom_effect_tooltip = EST_events.27.cet
+        hidden_effect = {
+            remove_ideas = {
+            EST_peeter_pold_minister
+            }
+            add_ideas = {
+                EST_harald_laksberg_minister
+            }
+        }
+        
+    }
+}
+country_event = { #Politician Switch III ajutine -> Otto Strandman.
+    id = EST_events.28
+    title = EST_events.28.title
+    desc = EST_events.28.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.28.opt
+        ai_chance = { factor = 100 }
+        custom_effect_tooltip = EST_events.28.cet
+        hidden_effect = {
+            remove_ideas = {
+            EST_harald_laksberg_minister
+            }
+            add_ideas = {
+                EST_johannes_kartau_minister
+            }
+            retire_country_leader = yes
+            create_country_leader = {
+                name = EST_otto_strandman
+                picture = "gfx/leaders/EST/govpol/EST_otto_strandman_large.dds"
+                ideology = oligarchism
+                desc = EST_otto_strandman_desc
+                expire="1965.1.1.1"
+                id=-1
+                traits = {
+                    kokkuhoidlik_minister
+                }
+            }
+        }
+        
+    }
+}
+country_event = { #Politician Switch Otto Strandman -> Tõnissoni esimene.
+    id = EST_events.29
+    title = EST_events.29.title
+    desc = EST_events.29.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.29.opt
+        custom_effect_tooltip = EST_events.29.cet
+        ai_chance = { factor = 100 }
+        hidden_effect = {
+          remove_ideas = {
+            EST_johannes_kartau_minister
+            EST_jaan_poska_minister
+            }
+            add_ideas = {
+                EST_konstantin_treffner_minister
+                EST_ado_birk_minister
+            }
+            retire_country_leader = yes
+            create_country_leader = {
+                name = EST_jaan_tonisson
+                picture = "gfx/leaders/EST/govpol/EST_jaan_tonisson_large.dds"
+                ideology = oligarchism
+                desc = EST_jaan_tonisson_desc
+                expire="1965.1.1.1"
+                id=-1
+                traits = {
+                    vana_jaan
+                }
+            }  
+        }
+        
+    }
+}

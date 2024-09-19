@@ -1,0 +1,60 @@
+capital = 21
+oob = "EST_1936"
+
+if = {
+	limit = {
+		has_dlc = "Arms Against Tyranny"
+	}
+	store_core_states_on_game_start = yes
+}
+
+set_research_slots = 3
+
+recruit_character = EST_konstantin_pats
+recruit_character = EST_johan_laidoner
+recruit_character = EST_juhan_tuuling
+recruit_character = EST_johan_pitka
+recruit_character = EST_juri_ots
+recruit_character = EST_ernst_podder
+recruit_character = EST_jaan_soots
+recruit_character = EST_andres_larka
+recruit_character = EST_aleksander_tonisson
+recruit_character = EST_ado_birk
+recruit_character = EST_jaan_poska
+recruit_character = EST_jaan_tonisson
+recruit_character = EST_johannes_kartau
+recruit_character = EST_juhan_kukk
+recruit_character = EST_harald_laksberg
+recruit_character = EST_konstantin_treffner
+recruit_character = EST_otto_strandman
+recruit_character = EST_peeter_pold
+
+add_ideas = {
+	limited_conscription
+	EST_ernst_podder_army_chief
+	EST_juhan_tuuling
+	EST_johan_pitka
+	EST_juri_ots
+	EST_jaan_soots
+	EST_andres_larka
+	EST_aleksander_tonisson
+	EST_jaan_poska_minister
+	EST_juhan_kukk_minister
+	EST_peeter_pold_minister
+	eestikaitseliit_1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.5.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 15
+	communism = 5
+	neutrality = 60
+}
