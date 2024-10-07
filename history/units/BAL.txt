@@ -1,5 +1,5 @@
 division_template = {
-	name = "Infantry"	# Infantry Division	
+	name = "Stoßtrupp"	# Infantry Division	
 	division_names_group = GER_INF_01
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
@@ -31,7 +31,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Cavalry"	# Cavalry
+	name = "Kavallerie-Abteilung"	# Cavalry
 	division_names_group = GER_INF_01
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
@@ -59,15 +59,44 @@ division_template = {
 
 units = {
 	######## LAND OOB ########
-	##### Eesti Ülemjuhatus #####
+	##### Landeswehr Oberkommando #####
 	division = {
-		# "I Jalaväediviisi"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 2261
-		division_template = "Infantry"
+		division_template = "Stoßtrupp"
+		force_equipment_variants = {
+			infantry_equipment_0 = {
+				owner = "BAL"
+			}
+		}
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2261
+		division_template = "Stoßtrupp"
+		force_equipment_variants = {
+			infantry_equipment_0 = {
+				owner = "BAL"
+			}
+		}
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2261
+		division_template = "Stoßtrupp"
 		force_equipment_variants = {
 			infantry_equipment_0 = {
 				owner = "BAL"
@@ -82,7 +111,7 @@ units = {
 			name_order = 1
 		}
 		location = 576
-		division_template = "Cavalry"
+		division_template = "Kavallerie-Abteilung"
 		force_equipment_variants = {
 			infantry_equipment_0 = {
 				owner = "BAL"

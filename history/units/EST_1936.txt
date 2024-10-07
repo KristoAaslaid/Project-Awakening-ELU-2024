@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Jalaväediviis"	# Infantry Division	
+	name = "Jalaväepolk"	# Infantry Division	
 	division_names_group = EST_INF_01
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
@@ -31,7 +31,7 @@
 }
 
 division_template = {
-	name = "Ratsavägi"	# Cavalry
+	name = "Ratsapolk"	# Cavalry
 	division_names_group = EST_CAV_01
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
@@ -61,13 +61,12 @@ units = {
 	######## LAND OOB ########
 	##### Eesti Ülemjuhatus #####
 	division = {
-		# "I Jalaväediviisi"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 671
-		division_template = "Jalaväediviis"
+		location = 86
+		division_template = "Jalaväepolk"
 		force_equipment_variants = {
 			infantry_equipment_0 = {
 				owner = "EST"
@@ -77,13 +76,12 @@ units = {
 		start_equipment_factor = 0.2
 	}
 	division = {
-		# "II Jalaväediviisi"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 2130
-		division_template = "Jalaväediviis"
+		location = 41
+		division_template = "Jalaväepolk"
 		force_equipment_variants = {
 			infantry_equipment_0 = {
 				owner = "EST"
@@ -93,13 +91,12 @@ units = {
 		start_equipment_factor = 0.2
 	}
 	division = {
-		# "III Jalaväediviisi"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 1502
-		division_template = "Jalaväediviis"
+		location = 109
+		division_template = "Jalaväepolk"
 		force_equipment_variants = {
 			infantry_equipment_0 = {
 				owner = "EST"
@@ -108,22 +105,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 2145
-		division_template = "Ratsavägi"
-		force_equipment_variants = {
-			infantry_equipment_0 = {
-				owner = "EST"
-			}
-		}
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-	}
-	##### No Naval OOB -- 2 SSs in 1937 #####
+	
 }
 
 ### Starting Production ###

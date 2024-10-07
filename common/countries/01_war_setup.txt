@@ -1,0 +1,12 @@
+country_event = {
+    id = start_war.1
+    title = "War Begins!"
+    desc = "Sõda Punaarmee Landesveeri vastu."
+    picture = "GFX_report_event_generic"
+
+    is_triggered_only = yes
+
+    immediate = {
+        start_war = { country = SOV target = BAL }
+    }
+}

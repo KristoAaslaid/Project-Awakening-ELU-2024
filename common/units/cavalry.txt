@@ -32,7 +32,7 @@ sub_units = {
 		manpower = 150
 
 		#Misc Abilities
-		maximum_speed = 0.6
+		maximum_speed = 170
 		training_time = 120		
 		weight = 0.5
 		

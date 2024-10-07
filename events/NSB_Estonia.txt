@@ -283,7 +283,7 @@ country_event = { #Utria Dessant
         set_province_controller = 601
         39 = {
             create_unit = {
-                division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5"
+                division = "name = \"Jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 601
             }

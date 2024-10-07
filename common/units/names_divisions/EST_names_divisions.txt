@@ -32,7 +32,7 @@
 #                                      the current game version.
 EST_INF_01 = 
 {
-	name = "Infantry Division"
+	name = "Jalaväepolk"
 
 	for_countries = { EST }
 
@@ -43,32 +43,32 @@ EST_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { EST_INF_01 }
 
-	fallback_name = "%s Jalaväediviisi"
+	fallback_name = "%s Jalaväepolk"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s Jalaväediviisi" }
-		2 = { "%s Jalaväediviisi" }
-		3 = { "%s Jalaväediviisi" }
-		4 = { "%s Jalaväediviisi" }
-		5 = { "%s Jalaväediviisi" }
-		6 = { "%s Jalaväediviisi" }
-		7 = { "%s Jalaväediviisi" }
-		8 = { "%s Jalaväediviisi" }
-		9 = { "%s Jalaväediviisi" }
-		10 = { "%s Jalaväediviisi" }
-		11 = { "%s Jalaväediviisi" }
-		12 = { "%s Jalaväediviisi" }
-		13 = { "%s Jalaväediviisi" }
-		14 = { "%s Jalaväediviisi" }
-		15 = { "%s Jalaväediviisi" }
-		16 = { "%s Jalaväediviisi" }
-		17 = { "%s Jalaväediviisi" }
-		18 = { "%s Jalaväediviisi" }
-		19 = { "%s Jalaväediviisi" }
-		20 = { "%s Jalaväediviisi" }		
+		1 = { "%s Jalaväepolk" }
+		2 = { "%s Jalaväepolk" }
+		3 = { "%s Jalaväepolk" }
+		4 = { "%s Jalaväepolk" }
+		5 = { "%s Jalaväepolk" }
+		6 = { "%s Jalaväepolk" }
+		7 = { "%s Jalaväepolk" }
+		8 = { "%s Jalaväepolk" }
+		9 = { "%s Jalaväepolk" }
+		10 = { "Scoutspolk" }
+		11 = { "Sakala partisanide polk" }
+		12 = { "Kuperjanovi partisanide polk" }
+		13 = { "Kalevlaste maleva polk" }
+		14 = { "Balti pataljon" }
+		15 = { "Ingeri pataljon" }
+		16 = { "Üksik Katšanovi pataljon" }
+		17 = { "Balahhovitši üksik pataljon" }
+		18 = { "1. piirivalve pataljon" }
+		19 = { "2. piirivalve pataljon" }
+		20 = { "Tallinna tagavarapolk" }		
 	}
 }
 
@@ -85,22 +85,22 @@ EST_CAV_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EST_INF_01 }
 
-	fallback_name = "%s Ratsaväediviisi"
+	fallback_name = "%s Ratsapolk"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s Ratsaväediviisi" }
-		2 = { "%s Ratsaväediviisi" }
-		3 = { "%s Ratsaväediviisi" }
-		4 = { "%s Ratsaväediviisi" }
-		5 = { "%s Ratsaväediviisi" }
-		6 = { "%s Ratsaväediviisi" }
-		7 = { "%s Ratsaväediviisi" }
-		8 = { "%s Ratsaväediviisi" }
-		9 = { "%s Ratsaväediviisi" }
-		10 = { "%s Ratsaväediviisi" }
+		1 = { "%s Ratsapolk" }
+		2 = { "%s Ratsapolk" }
+		3 = { "%s Ratsapolk" }
+		4 = { "%s Ratsapolk" }
+		5 = { "%s Ratsapolk" }
+		6 = { "%s Ratsapolk" }
+		7 = { "%s Ratsapolk" }
+		8 = { "%s Ratsapolk" }
+		9 = { "%s Ratsapolk" }
+		10 = { "%s Ratsapolk" }
 	}
 }
 

@@ -35,7 +35,8 @@ sub_units = {
 		max_strength = 25
 		max_organisation = 60
 		default_morale = 0.3
-		manpower = 150
+		maximum_speed = 140
+		manpower = 200
 
 		#Misc Abilities
 		training_time = 90
@@ -45,7 +46,7 @@ sub_units = {
 		supply_consumption = 0.06
 	
 		need = {
-			infantry_equipment = 150
+			infantry_equipment = 200
 		}
 	}
 
