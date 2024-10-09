@@ -68,9 +68,48 @@ country_event = {
         add_war_support = 0.25
         add_manpower = 14000
         set_country_flag = warstart_superevent
+        39 = { transfer_state_to = SOV }
+        6 = { transfer_state_to = SOV }
+        7 = { transfer_state_to = SOV }
+        19 = { transfer_state_to = SOV }
+        32 = { transfer_state_to = SOV }
+        22 = { transfer_state_to = SOV }
+        15 = { transfer_state_to = SOV }
+        20 = { transfer_state_to = SOV }
+        14 = { transfer_state_to = SOV }
+        11 = { transfer_state_to = SOV }
+        29 = { transfer_state_to = SOV }
+        12 = { transfer_state_to = SOV }
+        26 = { transfer_state_to = SOV }
+        18 = { transfer_state_to = SOV }
+        10 = { transfer_state_to = SOV }
+        17 = { transfer_state_to = SOV }
+        10 = { transfer_state_to = BAL }
+        16 = { transfer_state_to = LAT }
+        38 = {
+            create_unit = {
+                division = "name = \"Kalevlaste polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 41
+        }
     }
-}#Viimased Saksa
-country_event = {
+        50 = {
+            create_unit = {
+                division = "name = \"Kuperjanovi partisanide polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 1981
+        }
+    }
+        38 = {
+            create_unit = {
+                division = "name = \"Balti pataljon\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 41
+            }
+        }
+    }
+}
+country_event = { #Viimased Saksa
     id = EST_events.4
     title = EST_events.4.title
     desc = EST_events.4.desc
@@ -92,8 +131,8 @@ country_event = {
         add_political_power = 50
         add_stability = 0.10
     }
-}#SB Laevastik 
-country_event = {
+}
+country_event = { #SB Laevastik 
     id = EST_events.5
     title = EST_events.5.title
     desc = EST_events.5.desc
@@ -210,7 +249,6 @@ country_event = { #Vabatahtlikud
                 traits = { }
             }
         }
-        
     }
 }
 country_event = { #2/3
@@ -360,6 +398,7 @@ country_event = { #Saaremaa mäss
         ai_chance = { factor = 100 }
         add_stability = -0.3
         add_manpower = -169
+        21 = { transfer_state_to = SOV }
     }
 }
 country_event = { #Laidoneri ettekanne
