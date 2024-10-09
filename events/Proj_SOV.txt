@@ -45,6 +45,28 @@ country_event = {
         name = Proj_SOV.8.opt
         ai_chance = { base = 100 }
         declare_war_on = { type = annex_everything    target = LAT }
+        declare_war_on = { type = annex_everything    target = BAL }
+        37 = { transfer_state_to = SOV }
+        45 = { transfer_state_to = SOV }
+        51 = { transfer_state_to = SOV }
+        26 = {
+            create_unit = {
+                division = "name = \"Punane Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
+                owner = SOV
+                prioritize_location = 1357
+        }
+        26 = {
+            create_unit = {
+                division = "name = \"Punane Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
+                owner = SOV
+                prioritize_location = 1978
+        }
+        17 = {
+            create_unit = {
+                division = "name = \"Punane Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
+                owner = SOV
+                prioritize_location = 1853
+        }
     }
 }
 

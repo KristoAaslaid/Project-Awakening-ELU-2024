@@ -19,3 +19,8 @@ set_popularities = {
 	communism = 80
 	neutrality = 5
 }
+
+war = {
+    country = EST  # The country you want to declare war on
+    date = 1918.11.13  # Start date
+}

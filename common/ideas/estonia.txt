@@ -11,11 +11,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				training_time_army_factor = -0.05
+				training_time_army_factor = 0.05
 				experience_gain_army = 0.1
-				army_org = -5
-				max_planning = -0.3
-				army_morale = -5
+				army_org = 50
+				max_planning = 0.3
+				army_morale = 5
 				weekly_manpower = 250
 			}
 		}
