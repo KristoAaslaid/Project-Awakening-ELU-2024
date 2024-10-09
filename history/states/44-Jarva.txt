@@ -57,5 +57,9 @@ state = {
 			596
 			5
 		}
+		victory_points = {
+			861
+			5
+		}
 	}
 }
