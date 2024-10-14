@@ -71,7 +71,18 @@ EST_INF_01 =
 		20 = { "Tallinna tagavarapolk" }		
 	}
 }
+EST_INF_02 = 
+{
+	name = "Jalaväepataljon"
 
+	for_countries = { EST }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%s Jalaväepataljon"
+}
 EST_CAV_01 = 
 {
 	name = "Cavalry Division"

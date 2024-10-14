@@ -29,7 +29,25 @@
 		}
 	}
 }
-
+division_template = {
+	name = "Jalaväepataljon"		
+	division_names_group = EST_INF_02
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		Jalaväerood = {
+			x = 0
+			y = 0
+		}
+		Jalaväerood = {
+			x = 0
+			y = 1
+		}
+		Jalaväerood = {
+			x = 0
+			y = 2
+		}
+	}
+}
 division_template = {
 	name = "Ratsapolk"	# Cavalry
 	division_names_group = EST_CAV_01
@@ -63,9 +81,24 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 4
 		}
-		location = 86
+		location = 1169
+		division_template = "Jalaväepolk"
+		force_equipment_variants = {
+			infantry_equipment_0 = {
+				owner = "EST"
+			}
+		}
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1169
 		division_template = "Jalaväepolk"
 		force_equipment_variants = {
 			infantry_equipment_0 = {
@@ -80,7 +113,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 41
+		location = 1981
 		division_template = "Jalaväepolk"
 		force_equipment_variants = {
 			infantry_equipment_0 = {
@@ -90,22 +123,6 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 109
-		division_template = "Jalaväepolk"
-		force_equipment_variants = {
-			infantry_equipment_0 = {
-				owner = "EST"
-			}
-		}
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
-	}
-	
 }
 
 ### Starting Production ###

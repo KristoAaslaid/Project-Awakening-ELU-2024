@@ -19,7 +19,14 @@ country_event = {
     option = {  
         name = EST_events.1.opt
         ai_chance = { factor = 100 }
-    }
+    50 = {
+            create_unit = {
+                division = "name = \"Ballahovitši pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 1981
+			}
+		}
+	}
 }
 #Britain Pledges Military Aid
 country_event = {
@@ -102,7 +109,7 @@ country_event = {
     }
         38 = {
             create_unit = {
-                division = "name = \"Balti pataljon\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                division = "name = \"Balti pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 41
             }
