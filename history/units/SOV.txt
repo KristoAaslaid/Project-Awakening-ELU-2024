@@ -31,7 +31,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Ratsa eskadron"	# Cavalry
+	name = "Ratsaeskadron"	# Cavalry
 	division_names_group = SOV_CAV_01
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
@@ -47,10 +47,6 @@ division_template = {
 			x = 1
 			y = 0
 		}
-		cavalry = {
-			x = 1
-			y = 1
-		}
 	}
 	support = {
 	}
@@ -59,66 +55,6 @@ division_template = {
 
 units = {
 	######## LAND OOB ########
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 375
-		division_template = "Kütipolk"
-		force_equipment_variants = {
-			infantry_equipment_0 = {
-				owner = "SOV"
-			}
-		}
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.8
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1650
-		division_template = "Kütipolk"
-		force_equipment_variants = {
-			infantry_equipment_0 = {
-				owner = "SOV"
-			}
-		}
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.8
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1883
-		division_template = "Kütipolk"
-		force_equipment_variants = {
-			infantry_equipment_0 = {
-				owner = "SOV"
-			}
-		}
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.8
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 57
-		division_template = "Kütipolk"
-		force_equipment_variants = {
-			infantry_equipment_0 = {
-				owner = "SOV"
-			}
-		}
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.8
-	}
 	division = {
 		division_name = {
 			is_name_ordered = yes

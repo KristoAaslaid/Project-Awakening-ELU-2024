@@ -21,7 +21,7 @@ country_event = {
         ai_chance = { factor = 100 }
     50 = {
             create_unit = {
-                division = "name = \"Ballahovitši pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
+                division = "name = \"Bulak-Balahhovitši pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 1981
 			}
@@ -107,11 +107,53 @@ country_event = {
                 prioritize_location = 1981
         }
     }
-        38 = {
+       38 = {
             create_unit = {
                 division = "name = \"Balti pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 41
+        }
+    }
+       42 = {
+            create_unit = {
+                division = "name = \"46. Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
+                owner = SOV
+                prioritize_location = 1883
+        }
+    }
+       42 = {
+            create_unit = {
+                division = "name = \"47. Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
+                owner = SOV
+                prioritize_location = 57
+        }
+    }
+       39 = {
+            create_unit = {
+                division = "name = \"50. Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
+                owner = SOV
+                prioritize_location = 542
+        }
+    }
+       42 = {
+            create_unit = {
+                division = "name = \"2. Viljandi eesti kommunistlik kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
+                owner = SOV
+                prioritize_location = 375
+        }
+    }
+        42 = {
+            create_unit = {
+                division = "name = \"15. Tartu eesti kommunistlik kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
+                owner = SOV
+                prioritize_location = 1650
+            }
+        }
+        35 = {
+            create_unit = {
+                division = "name = \"2. Petrogradi ratsapolgu 4. eskadron\" division_template = \"Ratsaeskadron\" start_experience_factor = 0.4"
+                owner = SOV
+                prioritize_location = 165
             }
         }
     }
@@ -188,7 +230,14 @@ country_event = { #Laidoner ja Mobilisatsioon
         add_manpower = 13500
         remove_ideas = EST_ernst_podder_army_chief
         add_ideas = EST_johan_laidoner
-    }
+        38 = {
+            create_unit = {
+                division = "name = \"I Ratsapolk\" division_template = \"Ratsapolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 41
+			}
+		}
+	}
 }
 country_event = { #Vabatahtlikud
     id = EST_events.7
@@ -328,7 +377,7 @@ country_event = { #Utria Dessant
         set_province_controller = 601
         39 = {
             create_unit = {
-                division = "name = \"Jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                division = "name = \"Soome vabatahtlike pataljon Pohjan Pojat\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 601
             }

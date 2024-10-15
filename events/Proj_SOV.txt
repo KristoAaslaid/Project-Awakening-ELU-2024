@@ -51,19 +51,25 @@ country_event = {
         51 = { transfer_state_to = SOV }
         26 = {
             create_unit = {
-                division = "name = \"Punane Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
+                division = "name = \"1. läti kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
                 owner = SOV
                 prioritize_location = 1357
         }
         26 = {
             create_unit = {
-                division = "name = \"Punane Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
+                division = "name = \"3. läti kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
+                owner = SOV
+                prioritize_location = 1978
+        }
+        26 = {
+            create_unit = {
+                division = "name = \"6. läti kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
                 owner = SOV
                 prioritize_location = 1978
         }
         17 = {
             create_unit = {
-                division = "name = \"Punane Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
+                division = "name = \"4. läti kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
                 owner = SOV
                 prioritize_location = 1853
         }
