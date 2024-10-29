@@ -19,13 +19,22 @@ country_event = {
     option = {  
         name = EST_events.1.opt
         ai_chance = { factor = 100 }
-    50 = {
-            create_unit = {
-                division = "name = \"Bulak-Balahhovitši pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
-                owner = EST
-                prioritize_location = 1981
-			}
-		}
+	}
+}
+country_event = {
+    id = EST_events.34
+    title = EST_events.34.title
+    desc = EST_events.34.desc
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    option = {  
+        name = EST_events.34.opt
+        ai_chance = { factor = 100 }
 	}
 }
 #Britain Pledges Military Aid
@@ -107,13 +116,6 @@ country_event = {
                 prioritize_location = 1981
         }
     }
-       38 = {
-            create_unit = {
-                division = "name = \"Balti pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
-                owner = EST
-                prioritize_location = 41
-        }
-    }
        42 = {
             create_unit = {
                 division = "name = \"46. Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
@@ -151,12 +153,35 @@ country_event = {
         }
         35 = {
             create_unit = {
+                division = "name = \"6. ratsapolgu 3. eskadron\" division_template = \"Ratsaeskadron\" start_experience_factor = 0.4"
+                owner = SOV
+                prioritize_location = 165
+            }
+        }
+        35 = {
+            create_unit = {
                 division = "name = \"2. Petrogradi ratsapolgu 4. eskadron\" division_template = \"Ratsaeskadron\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 165
             }
         }
     }
+}
+country_event = {
+    id = EST_events.33
+    title = EST_events.33.title
+    desc = EST_events.33.desc
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    option = {  
+        name = EST_events.33.opt
+        ai_chance = { factor = 100 }
+	}
 }
 country_event = { #Viimased Saksa
     id = EST_events.4
@@ -352,6 +377,28 @@ country_event = { #Vastupealetung
         swap_ideas = {
             remove_idea = eestikaitseliit_1
             add_idea = eestikaitseliit_2
+        }
+        38 = {
+            create_unit = {
+                division = "name = \"III Jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 41
+        	}
+        }
+        38 = {
+            create_unit = {
+                division = "name = \"I Jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 41
+        	}
+        }
+        38 = {
+        38 = {
+            create_unit = {
+                division = "name = \"IV Jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 41
+        	}
         }
     }
 }
@@ -892,6 +939,86 @@ country_event = { #Politician Switch Otto Strandman -> Tõnissoni esimene.
         
     }
 }
+country_event = { #Põhjakorpuse teke
+    id = EST_events.30
+    title = EST_events.30.title
+    desc = EST_events.30.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.30.opt
+        ai_chance = { factor = 100 }
+    50 = {
+            create_unit = {
+                division = "name = \"Bulak-Balahhovitši pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 1981
+		}
+	}
+    }
+}
+country_event = { #Balti pataljoni teke
+    id = EST_events.31
+    title = EST_events.31.title
+    desc = EST_events.31.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.31.opt
+        ai_chance = { factor = 100 }
+       38 = {
+            create_unit = {
+                division = "name = \"Balti pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 41
+        	}
+    	}
+    }
+}
+country_event = { #Taru langeb
+    id = EST_events.32
+    title = EST_events.32.title
+    desc = EST_events.32.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = EST
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = EST_events.32.opt
+        ai_chance = { factor = 100 }
+        51 = { transfer_state_to = SOV }
+        45 = { transfer_state_to = SOV }
+    }
+}
+
 #Tutorial
 country_event = { #Page 1
     id = EST_events.90

@@ -15,6 +15,14 @@ on_actions = {
 				}
 			}
 		}
+        effect = {
+			EST = {
+				country_event = {
+					id = EST_events.34
+                    days = 2
+				}
+			}
+		}
         effect = {#Britain pledge event
             EST = {
                 country_event = {
@@ -58,6 +66,14 @@ on_actions = {
         effect = {
             EST = {
                 country_event = {
+                    id = EST_events.33
+                    days = 24
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = {
                     id = EST_events.4
                     days = 28
                 }
@@ -74,8 +90,24 @@ on_actions = {
         effect = {
             EST = {
                 country_event = {
+                    id = EST_events.32
+                    days = 39
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = {
                     id = EST_events.6
                     days = 42
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = {
+                    id = EST_events.31
+                    days = 49
                 }
             }
         }
@@ -152,6 +184,14 @@ on_actions = {
             }
         }
         effect = {
+            SOV = {
+                country_event = { #NL abiväed
+                    id = Proj_SOV.9
+                    days = 86
+                }
+            }
+        }
+        effect = {
             EST = {
                 country_event = { #Saaremaa
                     id = EST_events.13
@@ -164,6 +204,14 @@ on_actions = {
                 country_event = { #Laidoner Ettekanne
                     id = EST_events.14
                     days = 105
+                }
+            }
+        }
+        effect = {
+            EST = {
+                country_event = { #Põhjakorpus tuleb Eestisse
+                    id = EST_events.30
+                    days = 14
                 }
             }
         }
