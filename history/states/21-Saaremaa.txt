@@ -82,10 +82,8 @@ state = {
 		add_core_of = EST
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 			2202 = {
 			naval_base = 1
-			coastal_bunker = 1
 			}
 		}
 		victory_points = {

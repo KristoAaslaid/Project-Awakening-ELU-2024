@@ -75,7 +75,7 @@ state = {
 			20
 		}
 		buildings = {
-			dockyard = 1
+			dockyard = 0
 				568 ={
                 naval_base = 1
                 coastal_bunker = 1

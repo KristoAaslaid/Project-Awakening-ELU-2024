@@ -393,14 +393,14 @@ country_event = { #Vastupealetung
         	}
         }
         38 = {
-        38 = {
             create_unit = {
                 division = "name = \"IV Jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 41
-        	}
-        }
-    }
+				}
+        		}
+		}
+	}
 }
 country_event = { #Utria Dessant
     id = EST_events.10
@@ -891,7 +891,6 @@ country_event = { #Politician Switch III ajutine -> Otto Strandman.
                 }
             }
         }
-        
     }
 }
 country_event = { #Politician Switch Otto Strandman -> Tõnissoni esimene.
@@ -991,9 +990,9 @@ country_event = { #Balti pataljoni teke
                 division = "name = \"Balti pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 41
-        	}
-    	}
-    }
+        		}
+    		}
+	}
 }
 country_event = { #Taru langeb
     id = EST_events.32
