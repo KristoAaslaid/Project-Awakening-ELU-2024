@@ -1,0 +1,28 @@
+ namespace = battleship_event
+
+event = {
+    id = battleship_event.1
+    title = "Sõjalaev Lennuk"
+    desc = "A new destroyer has been constructed and is ready to join our fleet."
+    picture = GFX_report_event_navy
+
+    trigger = {
+        # Optional conditions for when the event can fire
+        has_dlc = "Man the Guns"
+        is_major = yes
+    }
+
+    immediate = {
+        # Command to add a destroyer to the player's navy
+        add_ship = {
+            name = "Lennuk"
+            definition = destroyer
+            owner = ROOT
+            base = 38
+        }
+    }
+
+    option = {
+        name = "Suurepärane!"
+    }
+}

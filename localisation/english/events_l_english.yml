@@ -252,3 +252,6 @@
   EST_events.942.title:0 "Uuringute Alustamine" 
   EST_events.942.desc:0 "Siin menüüs saab valida uuringuid. Kõige üleval on uuringute tüübid (sõjavägi, merevägi, infrastruktuur ja nii edasi). Menüü keskel on ikoonid erinevate piltidega ning nendele vajutades saab 'Research' nuppu klikkides valida seda uuringut alustamiseks. Eventi pildil on punasega ümbritsetud need nupud."
   EST_events.942.opt:0 "Arusaadav."
+  battleship_event.1: "Sõjalaev Lennuk"
+  battleship_event.1.desc: "A new destroyer has been constructed and is ready to join our fleet."
+  battleship_event.1.name: "Suurepärane!"
