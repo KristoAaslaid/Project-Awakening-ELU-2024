@@ -15,8 +15,8 @@ ideas = {
 				max_planning = 0.25
 				army_morale = 5
                 conscription_factor = 0.2
-				offence = 0.1
-				defence = 0.1
+				offence = 0.5
+				defence = 0.5
 			}
         }
     }
