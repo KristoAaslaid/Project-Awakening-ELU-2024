@@ -31,6 +31,14 @@ on_actions = {
                 }
             }
         }
+        effect = {#LW relvad
+            BAL = {
+                country_event = {
+                    id = Proj_BAL.0
+                    days = 9
+                }
+            }
+        }
         effect = {
             EST = {
                 country_event = {

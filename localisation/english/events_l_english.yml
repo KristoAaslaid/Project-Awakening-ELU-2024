@@ -32,6 +32,9 @@
   Proj_LAT.1.opt:0 "Me peame Landeswehriga kokkuleppe tegema."
   #BAL
   #Landeswehr joins Latvia
+  Proj_BAL.0.title:0 "Relvastus"  
+  Proj_BAL.0.desc:0 "Landeswehr saab relvad Saksamaa armeelt."
+  Proj_BAL.0.opt:0 "Edasi."
   Proj_BAL.1.title:0 "Läti kaitse"  
   Proj_BAL.1.desc:0 "Landeswehr kaitses Lätit Nõukogude Venemaa eest."
   Proj_BAL.1.opt:0 "Edasi."
@@ -131,7 +134,7 @@
   #Valge Mõõk
   EST_events.21.title:0 "Operatsioon Valge Mõõk" 
   EST_events.21.desc:0 "28.sept 1919 algas Eestis tegutsenud Valgekaartlaste üks suurimaid operatsioone Nõukogude Venemaa vastu - Operatsioon Valge Mõõk. Selle operatsiooni peamiseks eesmärgiks oli vallutada Petrograd, mis oli sellel ajal Nõukogude Venemaa pealinn ja tähtsaim linn. Seda pealetungi aitasid kaasa ka veel Eesti sõjavägi, lootes nihutada Punaarmee rindejoon kaugemale Eesti piiridest ja viia Valgekaartlaste väed Eestist välja, ning ka veel Suurbritannia laevastik."
-  EST_events.21.opt:0 "Ega neid Valgekaartlasi ei saa ka usaldada."
+  EST_events.21.opt:0 "Edasi Petrogradi peale!"
   #Krasnaja Gorka
   EST_events.22.title:0 "Krasnaja Gorka Operatsioon" 
   EST_events.22.desc:0 "13.okt 1919 seoses Operatsioon Valge Mõõgaga tegi Eesti ka veel omakorda proovi enda seisu Vabadussõjas paremaks teha. Selleks plaaniti Krasnaja Gorka operatsioon plaaniga võtta üle fordid Ingerimaal, mis oleks võimaldanud katta Valgekaartlaste põhjatiiba ning samuti hävitada Nõukogude Balti laevastikku. \nPlaanile aitas kaasa ka veel Suurbritannia sõjalaevastik admiral Walter Cowani juhenduse all. Ei ole teada, mis teised plaanid olid veel Krasnaja Gorka fordidega seoses, kuna Suurbritannia soovis, et Eesti need vallutaks. \nKrasnaja Gorka operatsiooni esimeseks osaks oli dessant Kaporje lahe Peipja sadamas, mis oli peamiseks viisiks tuua Eesti sõjaväele seal uut moona ja tuge."
@@ -188,6 +191,9 @@
   EST_events.34.desc:0 "Teade Ülemvägedejuhatalt: formeeritud on endise Eesti 1. diviisi 2., 4. ja 5. jalaväepolgud. Üksused on valmis täitma neile püstitatavaid ülesandeid."
   EST_events.34.opt:0 "Suurepärane!"
   EST_events.34.cet:0 "Formeeritud on uued jalaväepolgud"
+  EST_events.35.title:0 "Operatsioon Valge Mõõk" 
+  EST_events.35.desc:0 "12. oktoobril 1919 alustas loodearmee pealetungi Petrogradile omades 20 000 sõdurit ja ohvitseri Punaarmee 40 000 vastu."
+  EST_events.35.opt:0 "Edasi Petrogradile!"
 
   #Tutorial Events
   EST_events.90.title:0 "Tutvustus meie modifikatsiooni - Project Awakening" 

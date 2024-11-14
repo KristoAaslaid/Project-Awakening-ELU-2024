@@ -329,6 +329,12 @@ country_event = { #Vabatahtlikud
                 logistics_skill = 2
                 traits = { }
             }
+        38 = {
+            create_unit = {
+                division = "name = \"Taani vabatahtlike pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.4"
+                owner = EST
+                prioritize_location = 41
+        	}
         }
     }
 }
@@ -528,7 +534,15 @@ country_event = { #Laidoneri ettekanne
             amount = 40
         }
         add_stability = 0.2
-    }
+        38 = {
+            create_unit = {
+                division = "name = \"Soomusautode kolonn\" division_template = \"Soomusautode kolonn\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 41
+				}
+			}
+		}
+	}
 }
 country_event = { #Riia Landeswehr
     id = EST_events.15
@@ -701,8 +715,77 @@ country_event = { #Valge Mõõk
         name = EST_events.21.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
+            create_corps_commander = {
+                name =EST_nikolai_judenits
+                portrait_path = "gfx/leaders/EST/EST_nikolai_judenits.dds"
+                desc = EST_nikolai_judenits_desc
+                skill = 2
+                attack_skill = 2
+                defense_skill = 2
+                planning_skill = 2
+                logistics_skill = 2
+                traits = { }
+            }
+        set_province_controller = 601
+        39 = {
+            create_unit = {
+                division = "name = \"1. Georgi jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 671
+            }
+        39 = {
+            create_unit = {
+                division = "name = \"2. Reveli jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 671
+            }
+        39 = {
+            create_unit = {
+                division = "name = \"3. Kolõvani jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 671
+            }
+        39 = {
+            create_unit = {
+                division = "name = \"4. Gdovi jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 671
+            			}
+            		}
+        39 = {
+            create_unit = {
+                division = "name = \"5. Veliko-Ostrovi polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 671
+            			}
+            		}
+        39 = {
+            create_unit = {
+                division = "name = \"6. Talaabi polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 671
+            			}
+            		}
+        39 = {
+            create_unit = {
+                division = "name = \"7. Uurali polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 671
+            			}
+            		}
+        39 = {
+            create_unit = {
+                division = "name = \"8. Semjonovi polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 671
+            			}
+            		}
+            	}
+            }
+        }
     }
 }
+
 country_event = { #Krasnaja Gorka
     id = EST_events.22
     title = EST_events.22.title
@@ -723,6 +806,14 @@ country_event = { #Krasnaja Gorka
         name = EST_events.22.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
+        set_province_controller = 527
+        1 = {
+            create_unit = {
+                division = "name = \"Inkeri pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 527
+            }
+        }
     }
 }
 country_event = { #Trotski-Kamenev
@@ -748,8 +839,38 @@ country_event = { #Trotski-Kamenev
         add_ideas = {
             eestimoraal
         }
+       35 = {
+            create_unit = {
+                division = "name = \"Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
+                owner = SOV
+                prioritize_location = 2098
+        }
     }
+       35 = {
+            create_unit = {
+                division = "name = \"Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
+                owner = SOV
+                prioritize_location = 2098
+        }
+    }
+       35 = {
+            create_unit = {
+                division = "name = \"Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
+                owner = SOV
+                prioritize_location = 2098
+        }
+    }
+       35 = {
+            create_unit = {
+                division = "name = \"Kommunistlik kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
+                owner = SOV
+                prioritize_location = 2098
+				}
+			}
+		}
+	}
 }
+
 country_event = { #VK taganemine, op end
     id = EST_events.24
     title = EST_events.24.title
@@ -963,6 +1084,12 @@ country_event = { #Põhjakorpuse teke
                 owner = EST
                 prioritize_location = 1981
 		}
+    50 = {
+            create_unit = {
+                division = "name = \"Üksik Katšanovi pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 1981
+		}
 	}
     }
 }
@@ -1017,6 +1144,8 @@ country_event = { #Taru langeb
         45 = { transfer_state_to = SOV }
     }
 }
+
+
 
 #Tutorial
 country_event = { #Page 1

@@ -68,12 +68,12 @@ units = {
 		location = 2261
 		division_template = "Stoßtrupp"
 		force_equipment_variants = {
-			infantry_equipment_0 = {
+			infantry_equipment_1 = {
 				owner = "BAL"
 			}
 		}
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
 	}
 	division = {
 		division_name = {
@@ -83,12 +83,12 @@ units = {
 		location = 2261
 		division_template = "Stoßtrupp"
 		force_equipment_variants = {
-			infantry_equipment_0 = {
+			infantry_equipment_1 = {
 				owner = "BAL"
 			}
 		}
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
 	}
 	division = {
 		division_name = {
@@ -98,12 +98,57 @@ units = {
 		location = 2261
 		division_template = "Stoßtrupp"
 		force_equipment_variants = {
-			infantry_equipment_0 = {
+			infantry_equipment_1 = {
 				owner = "BAL"
 			}
 		}
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2261
+		division_template = "Stoßtrupp"
+		force_equipment_variants = {
+			infantry_equipment_1 = {
+				owner = "BAL"
+			}
+		}
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2261
+		division_template = "Stoßtrupp"
+		force_equipment_variants = {
+			infantry_equipment_1 = {
+				owner = "BAL"
+			}
+		}
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2261
+		division_template = "Stoßtrupp"
+		force_equipment_variants = {
+			infantry_equipment_1 = {
+				owner = "BAL"
+			}
+		}
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
 	}
 	division = {
 		division_name = {
@@ -113,11 +158,11 @@ units = {
 		location = 576
 		division_template = "Kavallerie-Abteilung"
 		force_equipment_variants = {
-			infantry_equipment_0 = {
+			infantry_equipment_1 = {
 				owner = "BAL"
 			}
 		}
-		start_experience_factor = 0.1
+		start_experience_factor = 0.5
 		start_equipment_factor = 0.4
 	}
 }
@@ -126,7 +171,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_0
+			type = infantry_equipment_1
 			creator = "BAL"
 		}
 		requested_factories = 1

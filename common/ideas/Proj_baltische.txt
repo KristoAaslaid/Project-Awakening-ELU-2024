@@ -11,9 +11,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				army_org = 5
+				army_org = 50
 				max_planning = 0.25
-				army_morale = 5
+				army_morale = 10
                 conscription_factor = 0.2
 				offence = 0.5
 				defence = 0.5

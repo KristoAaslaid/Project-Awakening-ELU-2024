@@ -74,7 +74,23 @@ division_template = {
 	}
 	priority = 0
 }
-
+division_template = {
+	name = "Soomusautode kolonn"	# Soomusauto
+	division_names_group = EST_CAR_01
+	regiments = {
+		armored_car = {
+			x = 0
+			y = 0
+		}
+		armored_car = {
+			x = 0
+			y = 1
+		}
+	}
+	support = {
+	}
+	priority = 0
+}
 units = {
 	######## LAND OOB ########
 	##### Eesti Ülemjuhatus #####

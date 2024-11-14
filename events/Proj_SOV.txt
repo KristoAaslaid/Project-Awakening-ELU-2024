@@ -23,6 +23,11 @@ country_event = {
             remove_idea = sov_buff
             add_idea = sov_buff_1
         }
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 50807
+            producer = SOV
+        }
     }
 }
 
