@@ -74,5 +74,10 @@ state = {
 			876
 			30
 		}
+		buildings = {
+			876 ={
+			civilian_factory = 1
+			}
+		}
 	}
 }
