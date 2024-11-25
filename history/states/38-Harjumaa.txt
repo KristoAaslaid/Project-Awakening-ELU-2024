@@ -81,6 +81,7 @@ state = {
            		 1169 ={
                 naval_base = 1
                 coastal_bunker = 1
+                civilian_factory = 1
         	}
 	}
 }
