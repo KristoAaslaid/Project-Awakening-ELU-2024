@@ -57,60 +57,70 @@ country_event = {
                 division = "name = \"1. läti kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
                 owner = SOV
                 prioritize_location = 1357
+            }
         }
         26 = {
             create_unit = {
                 division = "name = \"3. läti kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
                 owner = SOV
                 prioritize_location = 1978
+            }
         }
         26 = {
             create_unit = {
                 division = "name = \"6. läti kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
                 owner = SOV
                 prioritize_location = 1978
+            }
         }
         7 = {
             create_unit = {
                 division = "name = \"10. Novgorodi jalaväepolk\" division_template = \"Kütipolk\" start_experience_factor = 0.3"
                 owner = SOV
                 prioritize_location = 159
+            }
         }
         7 = {
             create_unit = {
                 division = "name = \"8. Novgorodi jalaväepolk\" division_template = \"Kütipolk\" start_experience_factor = 0.1"
                 owner = SOV
                 prioritize_location = 159
+            }
         }
         7 = {
             create_unit = {
                 division = "name = \"12. Novgorodi jalaväepolk\" division_template = \"Kütipolk\" start_experience_factor = 0.3"
                 owner = SOV
                 prioritize_location = 1053
+            }
         }
         7 = {
             create_unit = {
                 division = "name = \"49. kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.2"
                 owner = SOV
                 prioritize_location = 1873
+            }
         }
         20 = {
             create_unit = {
                 division = "name = \"48. kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.3"
                 owner = SOV
                 prioritize_location = 2087
+            }
         }
         29 = {
             create_unit = {
                 division = "name = \"9. Novgorodi jalaväepolk\" division_template = \"Kütipolk\" start_experience_factor = 0.1"
                 owner = SOV
                 prioritize_location = 1525
+            }
         }
         17 = {
             create_unit = {
                 division = "name = \"4. läti kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.5"
                 owner = SOV
                 prioritize_location = 1853
+            }
         }
     }
 }
@@ -270,41 +280,41 @@ country_event = {
     option = {
         name = Proj_SOV.9.opt
         ai_chance = { base = 100 }
-       42 = {
+        42 = {
             create_unit = {
                 division = "name = \"166. Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 1883
+            }
         }
-    }
-       42 = {
+        42 = {
             create_unit = {
                 division = "name = \"87. Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 57
+            }
         }
-    }
-       39 = {
+        39 = {
             create_unit = {
                 division = "name = \"51. Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 542
+            }
         }
-    }
-       42 = {
+        42 = {
             create_unit = {
                 division = "name = \"168 Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 375
+            }
         }
-    }
-       42 = {
+        42 = {
             create_unit = {
                 division = "name = \"7. Petrogradi kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 375
+            }
         }
-    }
         42 = {
             create_unit = {
                 division = "name = \"1. eeskujulik ülakehvikute polk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"

@@ -107,43 +107,43 @@ country_event = {
                 division = "name = \"Kalevlaste polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 41
+            }
         }
-    }
         50 = {
             create_unit = {
                 division = "name = \"Kuperjanovi partisanide polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 1981
+            }
         }
-    }
-       42 = {
+        42 = {
             create_unit = {
                 division = "name = \"46. Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 1883
+            }
         }
-    }
-       42 = {
+        42 = {
             create_unit = {
                 division = "name = \"47. Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 57
+            }
         }
-    }
-       39 = {
+        39 = {
             create_unit = {
                 division = "name = \"50. Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 542
+            }
         }
-    }
-       42 = {
+        42 = {
             create_unit = {
                 division = "name = \"2. Viljandi eesti kommunistlik kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 375
+            }
         }
-    }
         42 = {
             create_unit = {
                 division = "name = \"15. Tartu eesti kommunistlik kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
@@ -286,15 +286,15 @@ country_event = { #Vabatahtlikud
         ai_chance = { factor = 100 }
         hidden_effect = {
             create_corps_commander = {
-            name=EST_hans_kalm
-            portrait_path = "gfx/leaders/EST/EST_hans_kalm.dds"
-            desc= EST_hans_kalm_desc
-            skill = 2
-            attack_skill = 2
-            defense_skill = 2
-            planning_skill = 2
-            logistics_skill = 2
-            traits = { }
+                name=EST_hans_kalm
+                portrait_path = "gfx/leaders/EST/EST_hans_kalm.dds"
+                desc= EST_hans_kalm_desc
+                skill = 2
+                attack_skill = 2
+                defense_skill = 2
+                planning_skill = 2
+                logistics_skill = 2
+                traits = { }
             }
             create_corps_commander = {
                 name=EST_constantin_von_weiss
@@ -329,6 +329,7 @@ country_event = { #Vabatahtlikud
                 logistics_skill = 2
                 traits = { }
             }
+        }
         38 = {
             create_unit = {
                 division = "name = \"Taani vabatahtlike pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.4"
@@ -403,8 +404,7 @@ country_event = { #Vastupealetung
                 division = "name = \"IV Jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 41
-				}
-        		}
+            }
 		}
 	}
 }
@@ -539,7 +539,6 @@ country_event = { #Laidoneri ettekanne
                 division = "name = \"Soomusautode kolonn\" division_template = \"Soomusautode kolonn\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 41
-				}
 			}
 		}
 	}
@@ -715,17 +714,17 @@ country_event = { #Valge Mõõk
         name = EST_events.21.opt
         ai_chance = { factor = 100 }
         add_political_power = 10
-            create_corps_commander = {
-                name =EST_nikolai_judenits
-                portrait_path = "gfx/leaders/EST/EST_nikolai_judenits.dds"
-                desc = EST_nikolai_judenits_desc
-                skill = 2
-                attack_skill = 2
-                defense_skill = 2
-                planning_skill = 2
-                logistics_skill = 2
-                traits = { }
-            }
+        create_corps_commander = {
+            name =EST_nikolai_judenits
+            portrait_path = "gfx/leaders/EST/EST_nikolai_judenits.dds"
+            desc = EST_nikolai_judenits_desc
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+            traits = { }
+        }
         set_province_controller = 601
         39 = {
             create_unit = {
@@ -733,54 +732,54 @@ country_event = { #Valge Mõõk
                 owner = EST
                 prioritize_location = 671
             }
+        }
         39 = {
             create_unit = {
                 division = "name = \"2. Reveli jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 671
             }
+        }
         39 = {
             create_unit = {
                 division = "name = \"3. Kolõvani jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 671
             }
+        }
         39 = {
             create_unit = {
                 division = "name = \"4. Gdovi jalaväepolk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 671
-            			}
-            		}
+            }
+        }
         39 = {
             create_unit = {
                 division = "name = \"5. Veliko-Ostrovi polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 671
-            			}
-            		}
+            }
+        }
         39 = {
             create_unit = {
                 division = "name = \"6. Talaabi polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 671
-            			}
-            		}
+            }
+        }
         39 = {
             create_unit = {
                 division = "name = \"7. Uurali polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 671
-            			}
-            		}
+            }
+        }
         39 = {
             create_unit = {
                 division = "name = \"8. Semjonovi polk\" division_template = \"Jalaväepolk\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 671
-            			}
-            		}
-            	}
             }
         }
     }
@@ -839,33 +838,32 @@ country_event = { #Trotski-Kamenev
         add_ideas = {
             eestimoraal
         }
-       35 = {
+        35 = {
             create_unit = {
                 division = "name = \"Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 2098
+            }
         }
-    }
-       35 = {
+        35 = {
             create_unit = {
                 division = "name = \"Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 2098
+            }
         }
-    }
-       35 = {
+        35 = {
             create_unit = {
                 division = "name = \"Kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 2098
+            }
         }
-    }
-       35 = {
+        35 = {
             create_unit = {
                 division = "name = \"Kommunistlik kütipolk\" division_template = \"Kütipolk\" start_experience_factor = 0.4"
                 owner = SOV
                 prioritize_location = 2098
-				}
 			}
 		}
 	}
@@ -963,13 +961,12 @@ country_event = { #Politician Switch I-II ajutine -> III ajutine.
         custom_effect_tooltip = EST_events.27.cet
         hidden_effect = {
             remove_ideas = {
-            EST_peeter_pold_minister
+                EST_peeter_pold_minister
             }
             add_ideas = {
                 EST_harald_laksberg_minister
             }
         }
-        
     }
 }
 country_event = { #Politician Switch III ajutine -> Otto Strandman.
@@ -994,7 +991,7 @@ country_event = { #Politician Switch III ajutine -> Otto Strandman.
         custom_effect_tooltip = EST_events.28.cet
         hidden_effect = {
             remove_ideas = {
-            EST_harald_laksberg_minister
+                EST_harald_laksberg_minister
             }
             add_ideas = {
                 EST_johannes_kartau_minister
@@ -1035,9 +1032,9 @@ country_event = { #Politician Switch Otto Strandman -> Tõnissoni esimene.
         custom_effect_tooltip = EST_events.29.cet
         ai_chance = { factor = 100 }
         hidden_effect = {
-          remove_ideas = {
-            EST_johannes_kartau_minister
-            EST_jaan_poska_minister
+            remove_ideas = {
+                EST_johannes_kartau_minister
+                EST_jaan_poska_minister
             }
             add_ideas = {
                 EST_konstantin_treffner_minister
@@ -1056,7 +1053,6 @@ country_event = { #Politician Switch Otto Strandman -> Tõnissoni esimene.
                 }
             }  
         }
-        
     }
 }
 country_event = { #Põhjakorpuse teke
@@ -1078,19 +1074,20 @@ country_event = { #Põhjakorpuse teke
     option = {
         name = EST_events.30.opt
         ai_chance = { factor = 100 }
-    50 = {
+        50 = {
             create_unit = {
                 division = "name = \"Bulak-Balahhovitši pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 1981
+            }
 		}
-    50 = {
+        50 = {
             create_unit = {
                 division = "name = \"Üksik Katšanovi pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 1981
+            }
 		}
-	}
     }
 }
 country_event = { #Balti pataljoni teke
@@ -1112,16 +1109,16 @@ country_event = { #Balti pataljoni teke
     option = {
         name = EST_events.31.opt
         ai_chance = { factor = 100 }
-       38 = {
+        38 = {
             create_unit = {
                 division = "name = \"Balti pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.5"
                 owner = EST
                 prioritize_location = 41
-        		}
-    		}
+            }
+        }
 	}
 }
-country_event = { #Taru langeb
+country_event = { #Tartu langeb
     id = EST_events.32
     title = EST_events.32.title
     desc = EST_events.32.desc
