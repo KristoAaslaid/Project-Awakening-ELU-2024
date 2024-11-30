@@ -59,17 +59,5 @@ replace_path="history/general"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 
-replace_path="gfx/flags"
-replace_path="gfx/leaders"
-replace_path="gfx/loadingscreens"
-
-replace_path="history/states"
-replace_path="history/units"
-replace_path="history/countries"
-replace_path="history/general"
-
-replace_path="map/strategicregions"
-replace_path="map/supplyareas"
-
 supported_version="1.14.2"
 path="mod/Project Awakening"
