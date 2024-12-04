@@ -30,6 +30,13 @@
   Proj_LAT.1.title:0 "Vabadussõja algus"  
   Proj_LAT.1.desc:0 "18.nov 1918 algas Läti vabadussõda kuna Läti kuulutas välja iseseisvuse. 1.dec 1918 muutus seis ohtlikuks kuna Punaarmee tungis Läti aladele tahtmisega püstitada uus võim aga Lätil ei olnud veel piisavalt sõdureid, et vastu hakata."
   Proj_LAT.1.opt:0 "Me peame Landeswehriga kokkuleppe tegema."
+  Proj_LAT.2.title:0 "Andrievs Niedra riigijuhiks"  
+  Proj_LAT.2.desc:0 "16. aprillil 1919 Liepajas toimunud aprilliputš kukutas Läti Ajutise Valitsuse eesotsas Kārlis Ulmanisega ning võimule tuli alates 10. maist Andrievs Niedra valitsus."
+  Proj_LAT.2.opt:0 "Helge tuleviku nimel."
+  Proj_LAT.3.title:0 "Karlis Ulmanis tagasi riigijuhiks"  
+  Proj_LAT.3.desc:0 "Kārlis Ulmanis juhtis Lätit alates iseseisvuse kuulutamisest 18. november 1918.
+16. aprillil 1919 Liepajas toimunud aprilliputš kukutas Läti Ajutise Valitsuse eesotsas Kārlis Ulmanisega ning võimule tuli alates 10. maist Andrievs Niedra valitsus kuni 27. juunini 1919, kui peale Võnnu lahingut läks võim Ulmanise kätte tagasi."
+  Proj_LAT.3.opt:0 "Ulmanisega edasi!"
   #BAL
   #Landeswehr joins Latvia
   Proj_BAL.0.title:0 "Relvastus"  

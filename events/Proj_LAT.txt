@@ -23,3 +23,67 @@ country_event = {
         }
     }
 }
+country_event = { #Andrievs Niedra
+    id = Proj_LAT.2
+    title = Proj_LAT.2.title
+    desc = Proj_LAT.2.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = LAT
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = Proj_LAT.2.opt
+        ai_chance = { factor = 100 }
+        hidden_effect = {
+            retire_country_leader = yes
+            create_country_leader = {
+                name = LAT_andrievs_niedra
+                picture = "gfx/leaders/LAT/LAT_andrievs_niedra.dds"
+                ideology = oligarchism
+                desc = LAT_andrievs_niedra_desc
+                expire="1965.1.1.1"
+                id=-1
+            }
+        }
+    }
+}
+country_event = { #Ulmanis tagasi
+    id = Proj_LAT.3
+    title = Proj_LAT.3.title
+    desc = Proj_LAT.3.desc
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = LAT
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = Proj_LAT.3.opt
+        ai_chance = { factor = 100 }
+        hidden_effect = {
+            retire_country_leader = yes
+            create_country_leader = {
+                name = LAT_karlis_ulmanis
+                picture = "gfx/leaders/LAT/LAT_karlis_ulmanis.dds"
+                ideology = oligarchism
+                desc = LAT_karlis_ulmanis_desc
+                expire="1965.1.1.1"
+                id=-1
+            }
+        }
+    }
+}

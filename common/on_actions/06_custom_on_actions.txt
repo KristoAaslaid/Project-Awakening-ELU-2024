@@ -39,6 +39,22 @@ on_actions = {
                 }
             }
         }
+        effect = {#Andrievs Niedra
+            LAT = {
+                country_event = {
+                    id = Proj_LAT.2
+                    days = 125
+                }
+            }
+        }
+        effect = {#Ulmanis tagasi
+            LAT = {
+                country_event = {
+                    id = Proj_LAT.3
+                    days = 196
+                }
+            }
+        }
         effect = {
             EST = {
                 country_event = {

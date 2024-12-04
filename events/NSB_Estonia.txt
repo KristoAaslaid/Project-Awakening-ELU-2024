@@ -336,10 +336,18 @@ country_event = { #Vabatahtlikud
                 owner = EST
                 prioritize_location = 41
         	}
+        38 = {
+            create_unit = {
+                division = "name = \"Rootsi vabatahtlike pataljon\" division_template = \"Jalaväepataljon\" start_experience_factor = 0.4"
+                owner = EST
+                prioritize_location = 41
+				}
+			}
+		}
         }
     }
 }
-country_event = { #2/3
+country_event = {
     id = EST_events.8
     title = EST_events.8.title
     desc = EST_events.8.desc

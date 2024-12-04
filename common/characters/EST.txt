@@ -62,7 +62,7 @@ characters={
 		}
 		advisor={
 			cost = -1
-			can_be_fired = no
+			can_be_fired = yes
 			slot = theorist
 			idea_token = EST_juhan_tuuling
 			ledger = army
@@ -97,7 +97,7 @@ characters={
 				navy_chief_old_guard
 			}
 			cost = -1
-			can_be_fired = no
+			can_be_fired = yes
 			ai_will_do = {
 				factor = 0
 			}
@@ -130,7 +130,7 @@ characters={
 				air_chief_ground_support_2
 			}
 			cost = -1
-			can_be_fired = no
+			can_be_fired = yes
 			ai_will_do = {
 				factor = 0.000
 			}
@@ -157,7 +157,7 @@ characters={
 				army_chief_old_guard
 			}
 			cost = -1
-			can_be_fired = no
+			can_be_fired = yes
 			ai_will_do = {
 				factor = 0
 			}
@@ -192,7 +192,7 @@ characters={
 			traits = {
 				army_chief_defensive_2 
 			}
-			can_be_fired = no
+			can_be_fired = yes
 			cost = -1
 			ai_will_do = {
 				factor = 0.000
@@ -217,7 +217,7 @@ characters={
 			}
 		}
 		advisor={
-			can_be_fired = no
+			can_be_fired = yes
 			slot = high_command
 			desc = EST_andres_larka_desc
 			idea_token = EST_andres_larka
@@ -250,7 +250,7 @@ characters={
 			}
 		}
 		advisor={
-			can_be_fired = no
+			can_be_fired = yes
 			slot = high_command
 			desc = EST_aleksander_tonisson_desc
 			idea_token = EST_aleksander_tonisson
@@ -362,7 +362,7 @@ characters={
 			}
 		}
 		advisor = {
-			can_be_fired = no
+			can_be_fired = yes
 			desc = EST_ado_birk_desc
 			slot = political_advisor
 			idea_token = EST_ado_birk_minister
@@ -377,7 +377,7 @@ characters={
 			}
 		}
 		advisor = {
-			can_be_fired = no
+			can_be_fired = yes
 			desc = EST_jaan_poska_desc
 			slot = political_advisor
 			idea_token = EST_jaan_poska_minister
@@ -392,7 +392,7 @@ characters={
 			}
 		}
 		advisor = {
-			can_be_fired = no
+			can_be_fired = yes
 			desc = EST_jaan_tonisson_desc
 			slot = political_advisor
 			idea_token = EST_jaan_tonisson_minister
@@ -416,7 +416,7 @@ characters={
 			}
 		}
 		advisor = {
-			can_be_fired = no
+			can_be_fired = yes
 			desc = EST_johannes_kartau_desc
 			slot = political_advisor
 			idea_token = EST_johannes_kartau_minister
@@ -431,7 +431,7 @@ characters={
 			}
 		}
 		advisor = {
-			can_be_fired = no
+			can_be_fired = yes
 			desc = EST_juhan_kukk_desc
 			slot = political_advisor
 			idea_token = EST_juhan_kukk_minister
@@ -446,7 +446,7 @@ characters={
 			}
 		}
 		advisor = {
-			can_be_fired = no
+			can_be_fired = yes
 			desc = EST_harald_laksberg_desc
 			slot = political_advisor
 			idea_token = EST_harald_laksberg_minister
@@ -461,7 +461,7 @@ characters={
 			}
 		}
 		advisor = {
-			can_be_fired = no
+			can_be_fired = yes
 			desc = EST_konstantin_treffner_desc
 			slot = political_advisor
 			idea_token = EST_konstantin_treffner_minister
@@ -476,7 +476,7 @@ characters={
 			}
 		}
 		advisor = {
-			can_be_fired = no
+			can_be_fired = yes
 			desc = EST_otto_strandman_desc
 			slot = political_advisor
 			idea_token = EST_otto_strandman_minister
@@ -500,7 +500,7 @@ characters={
 			}
 		}
 		advisor = {
-			can_be_fired = no
+			can_be_fired = yes
 			desc = EST_peeter_pold_desc
 			slot = political_advisor
 			idea_token = EST_peeter_pold_minister

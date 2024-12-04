@@ -13,4 +13,19 @@ characters={
 			id=-1
         }
     }
+    LAT_andrievs_niedra={
+        name=LAT_andrievs_niedra
+        portraits = {
+            army = {
+                large="gfx/leaders/LAT/LAT_andrievs_niedra.dds"
+            }
+        }
+        country_leader = {
+            ideology = oligarchism
+            desc=LAT_andrievs_niedra_desc
+            expire="1965.1.1.1"
+			id=-1
+        }
+    }
+
 }
