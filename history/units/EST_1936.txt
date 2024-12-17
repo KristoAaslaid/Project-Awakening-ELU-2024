@@ -152,10 +152,10 @@ units = {
 	}
 	division= {	
 		name = "Kapten Irw"
-		location = 1390
-		division\_template = "Soomusrong"
-		start\_experience\_factor = 0.1
-		start\_equipment\_factor = 0.2
+		location = 975 # peaks olema 1390
+		division_template = "Soomusrong"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
 
 	}
 }

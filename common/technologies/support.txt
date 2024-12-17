@@ -1292,6 +1292,7 @@ technologies = {
 	}
 	railway_gun = {
 		enable_equipments = {
+			railway_gun_equipment
 			railway_gun_equipment_1
 		}
 		research_cost = 1.5
