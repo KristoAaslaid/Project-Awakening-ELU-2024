@@ -5,7 +5,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { railway_gun }
-		need = { railway_gun_equipment = 1 }
+		need = { railway_gun_equipment = 0 }
 		weight = 1
 		supply_consumption = 0.2
 		max_strength = 2000

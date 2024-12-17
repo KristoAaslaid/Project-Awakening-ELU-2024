@@ -114,6 +114,18 @@ EST_CAV_01 =
 		10 = { "%s Ratsapolk" }
 	}
 }
+EST_RWG_01 = 
+{
+	name = "Soomusrongid"
+
+	for_countries = { EST }
+
+	can_use = { always = yes }
+
+	division_types = { "railway_gun" }
+
+	fallback_name = "%s Soomusrong"
+}
 
 EST_MOT_01 = 
 {
