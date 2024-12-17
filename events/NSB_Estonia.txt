@@ -262,6 +262,16 @@ country_event = { #Laidoner ja Mobilisatsioon
                 prioritize_location = 41
 			}
 		}
+        add_equipment_to_stockpile = {
+            type = armored_car_equipment
+            amount = 120
+            producer = ENG
+        	}
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 4000
+            producer = ENG
+		}
 	}
 }
 country_event = { #Vabatahtlikud
@@ -944,6 +954,14 @@ country_event = { #Tartu Rahu
         remove_ideas = {
             eestimoraal
         }
+        7 = { transfer_state_to = EST }
+        6 = { transfer_state_to = EST }
+        19 = { transfer_state_to = EST }
+        32 = { transfer_state_to = EST }
+        37 = { transfer_state_to = EST }
+        39 = { transfer_state_to = EST }
+        51 = { transfer_state_to = EST }
+        45 = { transfer_state_to = EST }
     }
 }
 country_event = { #Politician Switch I-II ajutine -> III ajutine.
