@@ -1,4 +1,4 @@
-music_station = "project_awakening"
+music_station = project_awakening
 
 music = {
 	song = maintheme
@@ -82,5 +82,50 @@ music = {
 
 music = {
 	song = landeswehr
+	chance = { factor = 1 }
+}
+
+music = {
+	song = vabadusele
+	chance = { factor = 1 }
+}
+
+music = {
+	song = kalevlaste_maleva_laul
+	chance = { factor = 1 }
+}
+
+music = {
+	song = jaa_puhkama_rahus_mu_seltsimees_siin
+	chance = { factor = 1 }
+}
+
+music = {
+	song = eesti_maa_magede_taga
+	chance = { factor = 1 }
+}
+
+music = {
+	song = tibla_seltsimees
+	chance = { factor = 1 }
+}
+
+music = {
+	song = kuperjanovlaste_singeri_masin
+	chance = { factor = 1 }
+}
+
+music = {
+	song = soomusrongi_kapenirw_meeste_marsilaul_popurrii
+	chance = { factor = 1 }
+}
+
+music = {
+	song = sojasarv_sa_voimsast_huua
+	chance = { factor = 1 }
+}
+
+music = {
+	song = nyyd_yles_yles_vagevad_vaed
 	chance = { factor = 1 }
 }
