@@ -24,3 +24,63 @@ music = {
 	song = pa_song_viljandi_paadimees
 	chance = { factor = 1 }
 }
+
+music = {
+	song = enne_veel_kui_touseb_paikene
+	chance = { factor = 1 }
+}
+
+music = {
+	song = lahme_valga_peale_tormi
+	chance = { factor = 1 }
+}
+
+music = {
+	song = mets_kohab_pilved_jooksvad_ruttu
+	chance = { factor = 1 }
+}
+
+music = {
+	song = just_kahekymne_aastaal
+	chance = { factor = 1 }
+}
+
+music = {
+	song = wabariigi_pealinnas
+	chance = { factor = 1 }
+}
+
+music = {
+	song = meie_soomuspataljon
+	chance = { factor = 1 }
+}
+
+music = {
+	song = saksad_surevad_moisad_polevad
+	chance = { factor = 1 }
+}
+
+music = {
+	song = laanemeri_baltimaade_ilu
+	chance = { factor = 1 }
+}
+
+music = {
+	song = poisid_looge_janti_maha
+	chance = { factor = 1 }
+}
+
+music = {
+	song = partisaanid
+	chance = { factor = 1 }
+}
+
+music = {
+	song = kui_need_saksad_ara_laksid
+	chance = { factor = 1 }
+}
+
+music = {
+	song = landeswehr
+	chance = { factor = 1 }
+}

@@ -186,3 +186,75 @@ music = {
 	file = "viljandi_paadimees.ogg"
 	volume = 0.65
 }
+
+music = {
+	name = "enne_veel_kui_touseb_paikene"
+	file = "enne_veel_kui_touseb_paikene.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "lahme_valga_peale_tormi"
+	file = "lahme_valga_peale_tormi.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "mets_kohab_pilved_jooksvad_ruttu"
+	file = "mets_kohab_pilved_jooksvad_ruttu.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "just_kahekymne_aastaal"
+	file = "just_kahekymne_aastaal.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "wabariigi_pealinnas"
+	file = "wabariigi_pealinnas.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "meie_soomuspataljon"
+	file = "meie_soomuspataljon.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "saksad_surevad_moisad_polevad"
+	file = "saksad_surevad_moisad_polevad.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "laanemeri_baltimaade_ilu"
+	file = "laanemeri_baltimaade_ilu.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "poisid_looge_janti_maha"
+	file = "poisid_looge_janti_maha.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "partisaanid"
+	file = "partisaanid.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "kui_need_saksad_ara_laksid"
+	file = "kui_need_saksad_ara_laksid.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "landeswehr"
+	file = "landeswehr.ogg"
+	volume = 0.65
+}
