@@ -76,7 +76,7 @@ state = {
 		}
 		buildings = {
 			876 ={
-			civilian_factory = 1
+			industrial_complex = 1
 			}
 		}
 	}
