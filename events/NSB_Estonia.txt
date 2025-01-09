@@ -19,6 +19,28 @@ country_event = {
     option = {  
         name = EST_events.1.opt
         ai_chance = { factor = 100 }
+
+        add_equipment_production = {
+            equipment = {
+                type = railway_gun_equipment
+            }
+            requested_factories = 1
+            progress = 0.95
+            efficiency = 100
+        }
+
+        add_equipment_to_stockpile = {
+            type = railway_gun_equipment
+            amount = 100
+        }
+
+        37 = {
+            create_unit = {
+                division = "name = \"Kapten Irw\" division_template = \"Soomusrong\" start_experience_factor = 0.5"
+                owner = EST
+                prioritize_location = 1390
+            }
+        }
 	}
 }
 country_event = {

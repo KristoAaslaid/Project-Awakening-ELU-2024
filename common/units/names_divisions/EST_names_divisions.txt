@@ -127,6 +127,35 @@ EST_RWG_01 =
 	fallback_name = "%s Soomusrong"
 }
 
+EST_CAR_01 =
+{
+	name = "Soomusautode kolonn"
+
+	for_countries = { EST }
+
+	can_use = { always = yes }
+
+	division_types = { "armored_car" }
+
+	fallback_name = "%s Soomusauto"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%s Soomusauto" }
+		2 = { "%s Soomusauto" }
+		3 = { "%s Soomusauto" }
+		4 = { "%s Soomusauto" }
+		5 = { "%s Soomusauto" }
+		6 = { "%s Soomusauto" }
+		7 = { "%s Soomusauto" }
+		8 = { "%s Soomusauto" }
+		9 = { "%s Soomusauto" }
+		10 = { "%s Soomusauto" }
+	}
+}
+
 EST_MOT_01 = 
 {
 	name = "Motorized Division"
