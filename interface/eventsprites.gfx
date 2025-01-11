@@ -1,0 +1,46 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_proj_event_pics_1"
+        texturefile = "gfx/eventpictures/kalevlastemalev.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_event_pics_2"
+        texturefile = "gfx/eventpictures/baltipataljon.dds" 
+    }
+    spriteType = {
+        name = "GFX_proj_event_pics_3"
+        texturefile = "gfx/eventpictures/soome.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_event_pics_4"
+        texturefile = "gfx/eventpictures/valgekaartlased.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_event_pics_5"
+        texturefile = "gfx/eventpictures/rauddiviis.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_event_pics_6"
+        texturefile = "gfx/eventpictures/landeswehr.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_event_pics_7"
+        texturefile = "gfx/eventpictures/pohjapojad.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_event_pics_8"
+        texturefile = "gfx/eventpictures/kuperjanov.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_event_pics_9"
+        texturefile = "gfx/eventpictures/tartukl.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_event_pics_10"
+        texturefile = "gfx/eventpictures/saarehiiukl.dds"
+    }
+    spriteType = {
+        name = "GFX_proj_event_pics_11"
+        texturefile = "gfx/eventpictures/narvakl.dds"
+    }
+}

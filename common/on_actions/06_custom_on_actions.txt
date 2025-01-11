@@ -11,7 +11,7 @@ on_actions = {
 			EST = {
 				country_event = {
 					id = EST_events.90
-                    days = 2
+                    days = 0
 				}
 			}
 		}

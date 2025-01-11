@@ -195,6 +195,7 @@ country_event = { #Viimased Saksa
     id = EST_events.4
     title = EST_events.4.title
     desc = EST_events.4.desc
+    picture = GFX_proj_event_pics_11
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -286,6 +287,7 @@ country_event = { #Vabatahtlikud
     id = EST_events.7
     title = EST_events.7.title
     desc = EST_events.7.desc
+    picture = GFX_proj_event_pics_1
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -368,6 +370,7 @@ country_event = {
     id = EST_events.8
     title = EST_events.8.title
     desc = EST_events.8.desc
+    picture = GFX_proj_event_pics_10
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -437,6 +440,7 @@ country_event = { #Utria Dessant
     id = EST_events.10
     title = EST_events.10.title
     desc = EST_events.10.desc
+    picture = GFX_proj_event_pics_2
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -572,6 +576,7 @@ country_event = { #Riia Landeswehr
     id = EST_events.15
     title = EST_events.15.title
     desc = EST_events.15.desc
+    picture = GFX_proj_event_pics_3
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -651,6 +656,7 @@ country_event = { #Vaherahu katkemine
     id = EST_events.18
     title = EST_events.18.title
     desc = EST_events.18.desc
+    picture = GFX_proj_event_pics_7
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -673,6 +679,7 @@ country_event = { #Võnnu
     id = EST_events.19
     title = EST_events.19.title
     desc = EST_events.19.desc
+    picture = GFX_proj_event_pics_8
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -844,6 +851,7 @@ country_event = { #Trotski-Kamenev
     id = EST_events.23
     title = EST_events.23.title
     desc = EST_events.23.desc
+    picture = GFX_proj_event_pics_5
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -898,6 +906,7 @@ country_event = { #VK taganemine, op end
     id = EST_events.24
     title = EST_events.24.title
     desc = EST_events.24.desc
+    picture = GFX_proj_event_pics_6
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -1006,6 +1015,7 @@ country_event = { #Politician Switch III ajutine -> Otto Strandman.
     id = EST_events.28
     title = EST_events.28.title
     desc = EST_events.28.desc
+    picture = GFX_proj_event_pics_4
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -1127,6 +1137,7 @@ country_event = { #Balti pataljoni teke
     id = EST_events.31
     title = EST_events.31.title
     desc = EST_events.31.desc
+    picture = GFX_proj_event_pics_9
 
     fire_only_once = yes
     is_triggered_only = yes
